@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    <table>
+        <name>A</name>
+        <value>B</value>
+    </table>
+    <table>
+        <name>B</name>
+        <value>2</value>
+    </table>
+</records>
