@@ -5,5 +5,7 @@
     <xsl:output method="text" />
     <xsl:template match="records">
         <xsl:value-of select="table[./name[text()='B']]/value" />
+        <xsl:sequence select="string(',')" />
+        <xsl:value-of select="table[./name[text()=/records/value/target]]/value" />
     </xsl:template>
 </xsl:stylesheet>
